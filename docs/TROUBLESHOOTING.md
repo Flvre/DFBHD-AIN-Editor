@@ -30,8 +30,6 @@ Fix: File > Change Game Folder and point it to your Delta Force: Black Hawk Down
 
 **Foliage causes lag in the 2D view:** Maps with a large number of trees and bushes can slow down the 2D canvas. Toggle foliage visibility from the View menu if performance is affected.
 
-**A tilted entity appears upright:** Restart after updating the editor and reload the `.bms` map so its entity records are parsed again. The editor reads pitch from the BMS record and applies it to the 2D/3D geometry and generator collision preparation. If the model file is unavailable, only the available fallback geometry can be shown.
-
 ---
 
 ## Generator behavior
