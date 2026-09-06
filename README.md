@@ -110,6 +110,8 @@ The foliage (trees, bushes) could cause performance issues depending on how many
 
 The 3D View could cause massive performance issues depending on how many entities are rendered.
 
+Pitched navigable entities (such as tilted cargo containers) can produce edges that pass through the model. The generator's stair detection misclassifies the sloped surface, bypassing collision checks. Remove these edges manually using the 3D view (they appear as red lines).
+
 ## Legal notice
 
 This is a fan project. It is not affiliated in any way with NovaLogic or THQ Nordic. The repository does not bundle game assets.
