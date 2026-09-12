@@ -21,7 +21,6 @@ The tool is a nav graph editor. Its scope is to create and edit navigation graph
 - Navigation graph generator (seed-based and zone-based)
 - 2D top-down view with terrain, entities, collision geometry
 - 3D wireframe view with filtering and orbit controls
-- Entity orientation support: BMS heading and pitch are reflected in 2D/3D views and generator geometry
 - Node Focus render lens for keeping navigation geometry readable
 - Optional human reference model loaded from the user's own game installation
 - Node editing (control, radius, zone, metadata values)
